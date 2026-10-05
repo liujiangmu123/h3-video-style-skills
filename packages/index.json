@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-10-05T21:52:04",
+  "packages": [
+    {
+      "name": "biography-montage-series-planner",
+      "kind": "style-planner",
+      "version": "0.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/biography-montage-series-planner-0.1.0.skill.zip",
+      "bytes": 4879,
+      "sha256": "dc0f223cdf80e3fcc979b399ea370a0048430200b39d88555186110617500561"
+    },
+    {
+      "name": "biography-montage-style-explainer",
+      "kind": "style-explainer",
+      "version": "0.2.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/biography-montage-style-explainer-0.2.1.skill.zip",
+      "bytes": 7291,
+      "sha256": "8e895b6bf5b96c5742628b318249b4b1712c84eec3496a8cf54cc28359fa7cbf"
+    },
+    {
+      "name": "cinematic-poem-scroll-video",
+      "kind": "style-explainer",
+      "version": "1.2.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/cinematic-poem-scroll-video-1.2.0.skill.zip",
+      "bytes": 45303,
+      "sha256": "dca9bf24146abf6395e8a6c67f67d6b53503842b52d7d5c73d896b830a1e9b5d"
+    },
+    {
+      "name": "codegen-showcase-series-planner",
+      "kind": "style-planner",
+      "version": "1.0.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/codegen-showcase-series-planner-1.0.0.skill.zip",
+      "bytes": 13674,
+      "sha256": "ac6a53b4755b4701fe0e682d153739df2ec12e10ccce82c01fdd7c38e2aa79a4"
+    },
+    {
+      "name": "codegen-style-showcase",
+      "kind": "style-explainer",
+      "version": "1.0.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/codegen-style-showcase-1.0.1.skill.zip",
+      "bytes": 7262,
+      "sha256": "2cee4e314fa904946c0c70fe38f96329f389ff38dbc625ac6fe348436303caf2"
+    },
+    {
+      "name": "dianzi-series-planner",
+      "kind": "style-planner",
+      "version": "1.1.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/dianzi-series-planner-1.1.1.skill.zip",
+      "bytes": 10460,
+      "sha256": "4c74165e15e7ee6bb35441aa8723443d82e017edc6f5d9b0b6014bb4e2a4c8ea"
+    },
+    {
+      "name": "dianzi-style-explainer",
+      "kind": "style-explainer",
+      "version": "1.2.2",
+      "zip": "G:/AI/h3-video-style-skills/packages/dianzi-style-explainer-1.2.2.skill.zip",
+      "bytes": 32031,
+      "sha256": "ee512695f798cd1fe1062ec97e092ad29bdd1e22f06fa9205ea06036677426a7"
+    },
+    {
+      "name": "gufeng-song-story",
+      "kind": "style-explainer",
+      "version": "1.0.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/gufeng-song-story-1.0.1.skill.zip",
+      "bytes": 7403,
+      "sha256": "1331c2e4984247693fdcbe8be85729cc75d900f4ee64cefd94d9f7f8c24a22f4"
+    },
+    {
+      "name": "gufeng-song-story-series-planner",
+      "kind": "style-planner",
+      "version": "1.0.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/gufeng-song-story-series-planner-1.0.0.skill.zip",
+      "bytes": 12016,
+      "sha256": "f8b62cf929b57b3b27c36cb3899d7891a05266e730290835d678385da8c05323"
+    },
+    {
+      "name": "history-reenact-explainer",
+      "kind": "style-explainer",
+      "version": "0.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/history-reenact-explainer-0.1.0.skill.zip",
+      "bytes": 3091,
+      "sha256": "2656234d7926b997a33afb5d4ef580f94f8fcc874b5d729d9fb1b4ee16f5d814"
+    },
+    {
+      "name": "history-reenact-series-planner",
+      "kind": "style-planner",
+      "version": "0.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/history-reenact-series-planner-0.1.0.skill.zip",
+      "bytes": 4864,
+      "sha256": "3eceb8220e8bab8b38039a97606cd56fa18545c2db871ac4d96395b36d9db19a"
+    },
+    {
+      "name": "knowledge-ladder-explainer",
+      "kind": "style-explainer",
+      "version": "1.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/knowledge-ladder-explainer-1.1.0.skill.zip",
+      "bytes": 7055,
+      "sha256": "2478635b17a2108f374f020681ed1c43c1c4d2a869c1da3ca9087b50516ca7b2"
+    },
+    {
+      "name": "knowledge-ladder-series-planner",
+      "kind": "style-planner",
+      "version": "1.0.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/knowledge-ladder-series-planner-1.0.0.skill.zip",
+      "bytes": 21750,
+      "sha256": "b82c5ca937ef06ae0240abfa80b1b937c13d4f2203bcdeaa2ef9c62b76d1687f"
+    },
+    {
+      "name": "paper-demo-explainer",
+      "kind": "style-explainer",
+      "version": "1.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/paper-demo-explainer-1.1.0.skill.zip",
+      "bytes": 5448,
+      "sha256": "7ef1c000cd8d241e5a3eee863592162afe603950d9803e8d3f80c485f5f7c8f8"
+    },
+    {
+      "name": "paper-demo-series-planner",
+      "kind": "style-planner",
+      "version": "0.1.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/paper-demo-series-planner-0.1.0.skill.zip",
+      "bytes": 4776,
+      "sha256": "9baac2bb2938d3e91f73020ae8871e448f78671d9456177eb553f63bc4528f47"
+    },
+    {
+      "name": "shenhai-series-planner",
+      "kind": "style-planner",
+      "version": "1.4.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/shenhai-series-planner-1.4.0.skill.zip",
+      "bytes": 58542,
+      "sha256": "6f02fd96897a37b0631ab70d6736c762ea62e193686e3b89c2fbee4afad3e66b"
+    },
+    {
+      "name": "shenhai-style-explainer",
+      "kind": "style-explainer",
+      "version": "1.6.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/shenhai-style-explainer-1.6.0.skill.zip",
+      "bytes": 70358,
+      "sha256": "e3c9ba79b33ae4bd42dd791e935afa01a36380f1ebfc89952e2fea7dff4e7406"
+    },
+    {
+      "name": "ted-series-planner",
+      "kind": "style-planner",
+      "version": "1.0.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/ted-series-planner-1.0.0.skill.zip",
+      "bytes": 12586,
+      "sha256": "72ab4fde5990c4ed53ca560d4fcd029103b38cd4128fc919eb9debe521363e36"
+    },
+    {
+      "name": "ted-style-explainer",
+      "kind": "style-explainer",
+      "version": "1.0.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/ted-style-explainer-1.0.1.skill.zip",
+      "bytes": 6888,
+      "sha256": "307941bdd38bc522d73e2582d78b919f18b1c254e85508dee15087255bd43fbf"
+    },
+    {
+      "name": "vintage-woodblock-collage-video",
+      "kind": "style-explainer",
+      "version": "1.2.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/vintage-woodblock-collage-video-1.2.0.skill.zip",
+      "bytes": 22903,
+      "sha256": "0372d684d0a362839667ebd2074599a9946dbe009551c1c28c43edd93aaf0539"
+    },
+    {
+      "name": "xuezhong-series-planner",
+      "kind": "style-planner",
+      "version": "1.0.0",
+      "zip": "G:/AI/h3-video-style-skills/packages/xuezhong-series-planner-1.0.0.skill.zip",
+      "bytes": 15258,
+      "sha256": "ad2e2f52d25cf8e41f3bb984a079d1a266b90656dba50e309cadf04237837c98"
+    },
+    {
+      "name": "xuezhong-style-writing",
+      "kind": "style-explainer",
+      "version": "1.0.1",
+      "zip": "G:/AI/h3-video-style-skills/packages/xuezhong-style-writing-1.0.1.skill.zip",
+      "bytes": 7802,
+      "sha256": "e19a59ce1400d5c367f53b55267321c7a5d03f20d8d8f9ae77530f99de234d4c"
+    }
+  ]
+}

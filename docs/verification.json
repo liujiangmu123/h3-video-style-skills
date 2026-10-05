@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "where": "source",
+  "checked": 22,
+  "results": [
+    {
+      "name": "biography-montage-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/biography-montage-series-planner",
+      "errors": [],
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ]
+    },
+    {
+      "name": "biography-montage-style-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/biography-montage-style-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "cinematic-poem-scroll-video",
+      "path": "G:/AI/h3-video-style-skills/skills/cinematic-poem-scroll-video",
+      "errors": [],
+      "warnings": [
+        "还没有配对的 series-planner（metadata.pair 缺省）——学完选题方法后 h3_skill scaffold video=cinematic-poem explainer_name=cinematic-poem-scroll-video title=<中文名> 只补 planner 那半"
+      ]
+    },
+    {
+      "name": "codegen-showcase-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/codegen-showcase-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "codegen-style-showcase",
+      "path": "G:/AI/h3-video-style-skills/skills/codegen-style-showcase",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "dianzi-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/dianzi-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "dianzi-style-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/dianzi-style-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "gufeng-song-story",
+      "path": "G:/AI/h3-video-style-skills/skills/gufeng-song-story",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "gufeng-song-story-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/gufeng-song-story-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "history-reenact-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/history-reenact-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "history-reenact-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/history-reenact-series-planner",
+      "errors": [],
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ]
+    },
+    {
+      "name": "knowledge-ladder-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/knowledge-ladder-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "knowledge-ladder-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/knowledge-ladder-series-planner",
+      "errors": [],
+      "warnings": [
+        "description 977 字符，接近 1024 上限（建议 <900）"
+      ]
+    },
+    {
+      "name": "paper-demo-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/paper-demo-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "paper-demo-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/paper-demo-series-planner",
+      "errors": [],
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ]
+    },
+    {
+      "name": "shenhai-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/shenhai-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "shenhai-style-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/shenhai-style-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "ted-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/ted-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "ted-style-explainer",
+      "path": "G:/AI/h3-video-style-skills/skills/ted-style-explainer",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "vintage-woodblock-collage-video",
+      "path": "G:/AI/h3-video-style-skills/skills/vintage-woodblock-collage-video",
+      "errors": [],
+      "warnings": [
+        "还没有配对的 series-planner（metadata.pair 缺省）——学完选题方法后 h3_skill scaffold video=vintage-woodblock explainer_name=vintage-woodblock-collage-video title=<中文名> 只补 planner 那半"
+      ]
+    },
+    {
+      "name": "xuezhong-series-planner",
+      "path": "G:/AI/h3-video-style-skills/skills/xuezhong-series-planner",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "name": "xuezhong-style-writing",
+      "path": "G:/AI/h3-video-style-skills/skills/xuezhong-style-writing",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "message": "校验通过：22 个技能，0 error，6 warning"
+}

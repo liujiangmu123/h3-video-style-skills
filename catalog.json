@@ -1,0 +1,711 @@
+{
+  "schema": "h3-style-catalog-1",
+  "export_date": "2026-10-05",
+  "skill_count": 22,
+  "category_count": 4,
+  "video_family_count": 12,
+  "skills": [
+    {
+      "name": "biography-montage-series-planner",
+      "version": "0.1.0",
+      "kind": "style-planner",
+      "video": "biography-montage",
+      "pair": "biography-montage-style-explainer",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Plan 人物传记档案蒙太奇 style series topics — the topic skill (选题 skill): find directions, rate candidates, build topic pools and roadmaps, and hand each episode to the style skill biography-montage-style-explainer as a task message. Use when the user asks 人物传记档案蒙太奇风格做什么选题 / 方向 / 选题池 / 路线图, or asks whether a topic fits this style. Not for writing narration or H3 prompts (that is biography-montage-style-explainer).",
+      "path": "skills/biography-montage-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/11/人物传记_档案蒙太奇快剪",
+      "package": "packages/biography-montage-series-planner-0.1.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "335fe4a0215720de269eeac5b38218839b9f123cc8c7b7e370175098617b3776",
+          "bytes": 187
+        },
+        "references/fit-criteria.md": {
+          "sha256": "75bd148f5e86de71479040297f27c58dec60ee5a1c0d58726279daee6e6f6466",
+          "bytes": 1315
+        },
+        "references/output-templates.md": {
+          "sha256": "d55821e62c3c0858297eb2226671a32178357c2c531b1bf73f63b6ec56adb448",
+          "bytes": 497
+        },
+        "SKILL.md": {
+          "sha256": "7f106ac23b790646da727bdf537dd9a4544651e7c5272045536c093c5eace80c",
+          "bytes": 3199
+        }
+      },
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ],
+      "status": "needs-completion"
+    },
+    {
+      "name": "biography-montage-style-explainer",
+      "version": "0.2.1",
+      "kind": "style-explainer",
+      "video": "biography-montage",
+      "pair": "biography-montage-series-planner",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "人物传记档案蒙太奇风格（风格 skill）。从一支 10:47 中文人物传记解说爆款（V01，2026-10-02 复量）提炼：结局前置、名字扣住后揭、证人与信源锚叙事、脉冲×平台剪辑（3–7 s 内 8–12 切 + 闪白，对 ≥20 s 长镜）、现在动过去静。用 H3 生成画面时以\"物证代人\"翻译（档案桌、信件、名牌翻面）。Use when writing an H3 人物传记 / biography explainer episode, choosing its structure, narration lines, rhythm or transitions, or when checking whether a biography manuscript feels like this author. Not for rendering (h3-director) or prompt grammar (h3-storyboard-writing / h3-prompt-writing).",
+      "path": "skills/biography-montage-style-explainer",
+      "source": null,
+      "package": "packages/biography-montage-style-explainer-0.2.1.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "b0478e1d218f01b9bdf90077bf82acaec70fe21b49243bab14a930c9c6bca4f9",
+          "bytes": 4546
+        },
+        "SKILL.md": {
+          "sha256": "97ba725827ed14e3d27e63e0a22e56c1673e06c72aa9ed3fdb75946c5589c810",
+          "bytes": 5723
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "cinematic-poem-scroll-video",
+      "version": "1.2.0",
+      "kind": "style-explainer",
+      "video": "cinematic-poem",
+      "pair": null,
+      "category": "poetry-paper-art",
+      "category_label": "诗词与纸艺",
+      "description": "Turns classical Chinese poems, ci lyrics or lyrical prose into cinematic line-by-line epics for MiniMax H3: one phrase = one hyperreal ancient-China shot with a verbatim serif subtitle, a solemn male recitation and a building orchestral-Chinese score. Splits the text by phrase, designs each shot with the locked grammar (haze and backlight, block-level warm / cool alternation — warm open, cool build, warm close — straight cuts by default, foreground occlusion, symmetric spectacle, tiny figures, back-view hanfu anchors, grand symmetric finale), then batches them into 8-15 s H3 T2VA clips with full English prompts and assembly notes. Use for 古诗词视频 / 诗词逐句可视化 / 望海潮风格 / 电影感国风大片 / 宋词MV / 文旅宣传大片. Not for the voice-first timecode pipeline, dialogue, comedy, single static shots, or topic planning.",
+      "path": "skills/cinematic-poem-scroll-video",
+      "source": "G:/AI/视频分析/望海潮_电影感诗词长卷/视频分析",
+      "package": "packages/cinematic-poem-scroll-video-1.2.0.skill.zip",
+      "files": {
+        "references/example-prompt.md": {
+          "sha256": "9ed4423c5f786c3efa0d3cd8b3110e0654866a6638dd8b20ed7e81560a5c6474",
+          "bytes": 23310
+        },
+        "references/poem-type-playbook.md": {
+          "sha256": "a78524345435531977c0834b0693b21a0a662da071cb4ad8787bc5442a969146",
+          "bytes": 12914
+        },
+        "references/style-dna.md": {
+          "sha256": "4d4ae8ce19d28a9deed998d6340d4cc5dad54a2cc9f70abba9088ceb3321ad32",
+          "bytes": 18507
+        },
+        "references/transition-grammar.md": {
+          "sha256": "0d5200aca419d95ceecf07eccdc4c6953d0e28b78a8457e119cd6ec3f7aadafb",
+          "bytes": 12836
+        },
+        "SKILL.md": {
+          "sha256": "0af4c726a2f3723a98c0ab1cecd9fd0c6c15bd3c88f206122486105c2782f927",
+          "bytes": 20768
+        }
+      },
+      "warnings": [
+        "还没有配对的 series-planner（metadata.pair 缺省）——学完选题方法后 h3_skill scaffold video=cinematic-poem explainer_name=cinematic-poem-scroll-video title=<中文名> 只补 planner 那半"
+      ],
+      "status": "exported"
+    },
+    {
+      "name": "codegen-showcase-series-planner",
+      "version": "1.0.0",
+      "kind": "style-planner",
+      "video": "codegen-showcase",
+      "pair": "codegen-style-showcase",
+      "category": "production-experiments",
+      "category_label": "动画制作实验",
+      "description": "Plan 代码生成视频·N种风格 series topics — the topic skill (选题 skill) for the 'one frame, N different cores' showcase format: decide what goes into the frame (one everyday thing × N styles / one dot's life act by act / a style telling its own story), pick the N cores from the 15 style cards by engine (H3-led or hybrid first; code-led cores wait for the engines), rate directions with the format's gates (comparable / grows from one unit / lands as a finished piece / name = technique), five fit questions, H3 producibility and pool depth, keep the ledger and the overlap rules with 望海潮 / 唐伯虎 / 深海 / 01 / 06, the copyright rules (never remake the reel's 15 works, names or wordmarks), and write task messages for codegen-style-showcase. Use when the user asks 代码生成视频·N种风格 / 一物N画 / 风格盘点 做什么选题 / 方向 / 路线图 / 任务消息, or whether a topic fits. Not for writing cards or H3 prompts (that is codegen-style-showcase).",
+      "path": "skills/codegen-showcase-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/04/代码生成视频_15种风格",
+      "package": "packages/codegen-showcase-series-planner-1.0.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "bb3a785046e80fb12166b7ddd0ee31eae5c48f69689323fedd877324f0327612",
+          "bytes": 3374
+        },
+        "references/fit-criteria.md": {
+          "sha256": "2f8176016fabe4bca332baaa9a61f2833d207eddb61645d86f9918d5c90cd761",
+          "bytes": 6412
+        },
+        "references/output-templates.md": {
+          "sha256": "f097064b32b49e22c636cc1b73f3e278391885a14e532e1419ddd9c396ce2baf",
+          "bytes": 3164
+        },
+        "SKILL.md": {
+          "sha256": "f0f55b6e6a3c349fac9d86352790de04cf3c10f5073ed0dc0bbefbc13248ae7a",
+          "bytes": 8751
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "codegen-style-showcase",
+      "version": "1.0.1",
+      "kind": "style-explainer",
+      "video": "codegen-showcase",
+      "pair": "codegen-showcase-series-planner",
+      "category": "production-experiments",
+      "category_label": "动画制作实验",
+      "description": "Make 代码生成视频·N种风格 showcase episodes — the style skill (风格 skill) for the 'one frame, N different cores' format learned from the Opus 5.5 fifteen-styles reel: a title giving the count and the bar, then N identical ~10.8 s segments where a caption card lights first (number · name · three restrained lines · two tech tags), one smallest unit (dot, drop, square, line) grows into a finished piece (wordmark / cover / poster), the biggest change lands at ~63%, it settles, then silence + one dot bridges to the next; ends on an N-cell overview + title callback + a three-beat line. No narration, no CTA, no hard cuts between segments. Hybrid production: code for frame, cards and type; H3 for the cores it does well. Use for N种风格盘点 / 同题多风格对比 / 一物N画 / 代码动画风格库, or how this format writes cards, segments or H3 prompts. Topics: codegen-showcase-series-planner.",
+      "path": "skills/codegen-style-showcase",
+      "source": "G:/AI/视频分析/一些最近的想法/04/代码生成视频_15种风格",
+      "package": "packages/codegen-style-showcase-1.0.1.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "8ecfa421f1517416a24acd4630b87582c1aefba54d6f0bde63984f2500bfbd1e",
+          "bytes": 3134
+        },
+        "SKILL.md": {
+          "sha256": "d2d94422505da44b7dc15041a9d4f61902eeabc4839d28f9c2430021ab3c6eaf",
+          "bytes": 7296
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "dianzi-series-planner",
+      "version": "1.1.1",
+      "kind": "style-planner",
+      "video": "dianzi",
+      "pair": "dianzi-style-explainer",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Plan 电子智人参与式科普 (Dianzi participatory explainer) series topics — the topic skill (选题 skill): finds directions on the experience axis (one episode = one phenomenon the viewer can live through on themselves: a blank they can or cannot fill, a number they guess, a scrambled line they still read, a vote that turns out wrong), rates candidates with the style's four gates (do it first / form is content / shared everyday experience / hand it back), the viral six forces and pool depth, writes per-episode triples (self-experiment × meter × hand-back action), roadmaps and task messages for the style skill dianzi-style-explainer. Use when the user asks 电子智人风格 / 参与式科普 做什么选题 / 方向 / 选题池 / 路线图, or whether a topic fits this guided-participation format. Not for writing captions, narration or H3 prompts (that is dianzi-style-explainer).",
+      "path": "skills/dianzi-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/15/电子智人_无旁白参与式科普",
+      "package": "packages/dianzi-series-planner-1.1.1.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "2c0ee21f571da9c57c7fdcbcfba72bdbedbabf7bd003d440f27b86955a7c9261",
+          "bytes": 1847
+        },
+        "references/fit-criteria.md": {
+          "sha256": "488a47f931456a930bb15ff85c6b72d7ed12d1f518fcbc8ae845467a5ff1a701",
+          "bytes": 3955
+        },
+        "references/output-templates.md": {
+          "sha256": "282b630049a9d8ad7a19b3cb6cab306b3c4bb94b3b9117d50d50944fe8b86419",
+          "bytes": 2850
+        },
+        "SKILL.md": {
+          "sha256": "a17977ca00368c01d08fb0a7636f2c1ebb6e4e3a0ff033081c7532fcbc21d10f",
+          "bytes": 6812
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "dianzi-style-explainer",
+      "version": "1.2.2",
+      "kind": "style-explainer",
+      "video": "dianzi",
+      "pair": "dianzi-series-planner",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Generate 电子智人参与式科普 (Dianzi participatory explainer) style videos with MiniMax H3 — the style skill (风格 skill): a near-black room where everything glows on its own, warm gold = information / answer, thin cyan lines = structure, red = excluded / noise; no narrator on screen and no people; one bilingual caption sentence at a time; every chapter makes the viewer DO something first (fill a blank, guess a number, read a scrambled line, compare two things), draws the viewer's own state as a meter or a list of what is left, lights up the answer, and only then names the term; ends by handing the opening blank back to the viewer. Use for 电子智人风格 / 参与式科普 / 无旁白引导式科普 / 填空式开场 / 让观众先猜再讲, how this style writes captions, picture lines or H3 prompts, or turning any science topic into this format. Topics: dianzi-series-planner; the cross-style method: participation-design.",
+      "path": "skills/dianzi-style-explainer",
+      "source": "G:/AI/视频分析/一些最近的想法/15/电子智人_无旁白参与式科普",
+      "package": "packages/dianzi-style-explainer-1.2.2.skill.zip",
+      "files": {
+        "references/beat-templates.md": {
+          "sha256": "01b1fe045967b616d2161ec7cdb68a43d80c7d45ec129ae0e4d3f439b30b156b",
+          "bytes": 4028
+        },
+        "references/example-aperture.md": {
+          "sha256": "2556aa59e7b1a587a19d6052edd78d6741cb230a32ef84d49c731dab5a667af5",
+          "bytes": 4470
+        },
+        "references/hit-mechanics.md": {
+          "sha256": "6f4e45f03e84271f00da88a21ede9ce02d87324d313acc95cb38a1afc4719acb",
+          "bytes": 2265
+        },
+        "references/narration.md": {
+          "sha256": "814058cb565b60158de1fd5dae358868d9e5cfc652e60f3a7ff385fe59c6c989",
+          "bytes": 8771
+        },
+        "references/style-dna.md": {
+          "sha256": "eb0f2375c59cbcbda07b78617c1d85a960a0bbb9cf759bb5e69581a0ba6ff6bf",
+          "bytes": 14378
+        },
+        "SKILL.md": {
+          "sha256": "b7f862eb2630336de69b4add8762e0d2ffbaebb946971c7df61ff6c9f611ebb2",
+          "bytes": 24650
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "gufeng-song-story",
+      "version": "1.0.1",
+      "kind": "style-explainer",
+      "video": "gufeng-song-story",
+      "pair": "gufeng-song-story-series-planner",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Write 古风歌曲·一歌一故事 (one ancient-style song, one story) episodes — the style skill (风格 skill): pick a 古风 song, find the legend / history / opera story that grows out of the song itself (the object in its title, the place in its lyrics, its allusion), rewrite it as short fiction in the 雪中 brush (laugh first then leave, heaviest line shortest, name kept to the end), and lay it on screen paragraph by paragraph over the song: chorus opens on the ending, verse lays out 'back then', chorus flips to 'now' with the same composition or object, the killer lyric lands on the one reveal frame. No narration, no second music, lyrics unchanged, ancient settings only. Use when the user wants 古风歌配故事 / 一歌一故事 / 歌词贴合的小说 style, or asks how this line writes its story, aligns it to the song or writes its H3 picture lines. Topics: gufeng-song-story-series-planner; the 雪中 brush alone: xuezhong-style-writing.",
+      "path": "skills/gufeng-song-story",
+      "source": "G:/AI/视频分析/一些最近的想法/01/古风歌曲_一歌一故事",
+      "package": "packages/gufeng-song-story-1.0.1.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "73e019a8d4a3c49178705bd1ef4e96cff727f00ddea5367d2c2904eb0d47ef7a",
+          "bytes": 4386
+        },
+        "SKILL.md": {
+          "sha256": "ab01ac2e9fc1115f22e9f3cc7262c510b5b9e91336792e9b959db70b409dd458",
+          "bytes": 6493
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "gufeng-song-story-series-planner",
+      "version": "1.0.0",
+      "kind": "style-planner",
+      "video": "gufeng-song-story",
+      "pair": "gufeng-song-story",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Plan 古风歌曲·一歌一故事 series topics — the topic skill (选题 skill) for the line that pairs one ancient-style song with one story that grows out of the song itself (the object in its title, the place in its lyrics, its allusion). Finds and rates song × source pairings with the style's gates (fits the song / one person one deed / killer lyric on the reveal / then-and-now callback / a stillness), the five fit questions and pool depth, requires the four-part tuple (source × person × callback object × killer lyric), keeps the three sub-series ledger (器物有灵 / 史书与传说里的人 / 古曲有故事), the overlap rules with 望海潮 / 唐伯虎 / 深海 / 02 line, the song-copyright and public-domain-source rules, and writes task messages for the style skill gufeng-song-story. Use when the user asks 一歌一故事做什么选题 / 配什么歌 / 方向 / 路线图 / 任务消息, or whether a song fits. Not for writing the story or H3 prompts (that is gufeng-song-story).",
+      "path": "skills/gufeng-song-story-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/01/古风歌曲_一歌一故事",
+      "package": "packages/gufeng-song-story-series-planner-1.0.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "2731abaede4f2926bc22b074527fbb3e587733d586bbb3edd110353c05372ea7",
+          "bytes": 2330
+        },
+        "references/fit-criteria.md": {
+          "sha256": "8d543470bf1a4e29abcca3073fc9c504b786ae8c2eecfa73545f862982a826e9",
+          "bytes": 5050
+        },
+        "references/output-templates.md": {
+          "sha256": "97060cf9f0d7e66017475be88e698cb710298163da2e74097f21c479449fc77a",
+          "bytes": 2836
+        },
+        "SKILL.md": {
+          "sha256": "3243a11d02f6a7433d07e31bcb82bb97686401d1b1133c6b9a6481639976a757",
+          "bytes": 8020
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "history-reenact-explainer",
+      "version": "0.1.0",
+      "kind": "style-explainer",
+      "video": "history-reenact",
+      "pair": "history-reenact-series-planner",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "历史影视剪辑解说风格的 H3 原创重演版（风格 skill）。把\"剪原片 + 解说\"升级为用 H3 原创生成的三种形式：A 历史名场面另一种结局、B 历史人物跨时代对话、C 名句动画化。Use when writing a manuscript or H3 multi-shot prompts for this line, choosing a topic's hook / 名句 / 反转, or checking copyright compliance of a 影视解说 / 历史二创 idea. Not for timecode-line episodes (h3-storyboard-writing) or general H3 grammar (h3-prompt-writing).",
+      "path": "skills/history-reenact-explainer",
+      "source": "G:/AI/视频分析/一些最近的想法/05/历史影视剪辑_解说/视频分析/04_风格解构.md",
+      "package": "packages/history-reenact-explainer-0.1.0.skill.zip",
+      "files": {
+        "SKILL.md": {
+          "sha256": "6dcef40d6dd32e51dcc2df3a4fd88302822c64a35dbdd93e4bddbeced0886518",
+          "bytes": 3369
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "history-reenact-series-planner",
+      "version": "0.1.0",
+      "kind": "style-planner",
+      "video": "history-reenact",
+      "pair": "history-reenact-explainer",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Plan 历史影视解说·H3原创重演 style series topics — the topic skill (选题 skill): find directions, rate candidates, build topic pools and roadmaps, and hand each episode to the style skill history-reenact-explainer as a task message. Use when the user asks 历史影视解说·H3原创重演风格做什么选题 / 方向 / 选题池 / 路线图, or asks whether a topic fits this style. Not for writing narration or H3 prompts (that is history-reenact-explainer).",
+      "path": "skills/history-reenact-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/05/历史影视剪辑_解说",
+      "package": "packages/history-reenact-series-planner-0.1.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "335fe4a0215720de269eeac5b38218839b9f123cc8c7b7e370175098617b3776",
+          "bytes": 187
+        },
+        "references/fit-criteria.md": {
+          "sha256": "75bd148f5e86de71479040297f27c58dec60ee5a1c0d58726279daee6e6f6466",
+          "bytes": 1315
+        },
+        "references/output-templates.md": {
+          "sha256": "d55821e62c3c0858297eb2226671a32178357c2c531b1bf73f63b6ec56adb448",
+          "bytes": 497
+        },
+        "SKILL.md": {
+          "sha256": "898c821310a7b3e7389229e5f465ce2d748dffba9ceb72074a8ffba7647f0404",
+          "bytes": 3159
+        }
+      },
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ],
+      "status": "needs-completion"
+    },
+    {
+      "name": "knowledge-ladder-explainer",
+      "version": "1.1.0",
+      "kind": "style-explainer",
+      "video": "knowledge-ladder",
+      "pair": "knowledge-ladder-series-planner",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "知识溯源科普（Knowledge-ladder explainer）风格 skill：从一个高中就会的工具（斜率、对数、平均数、三角函数）出发，按五级阶梯 直觉 → 工具 → 困难 → 推广 → 做出东西 爬到一个高级概念（泰勒展开、傅里叶、梯度下降、贝叶斯、信息熵、控制论），历史溯源每处一句（莱布尼茨、维纳、香农），最后让观众做出一个可复现的小项目解决开头的真问题（自制 sin 计算器、修镜头畸变、调音器）。Use when the user wants 知识溯源 / 从斜率到泰勒 / 从高中知识讲起 / 对人有用的科普 / 从见到到困难到做出东西 / AI 的设想来源. Not for single-paper explainers (see paper-demo-explainer).",
+      "path": "skills/knowledge-ladder-explainer",
+      "source": "G:/AI/视频分析/一些最近的想法/06/知识溯源科普_从斜率到泰勒",
+      "package": "packages/knowledge-ladder-explainer-1.1.0.skill.zip",
+      "files": {
+        "references/ladder-template.md": {
+          "sha256": "feb1471e2f82a6b9cdb13c5136bdb9865ab6bf31e8244feb324313ee46f41f0d",
+          "bytes": 2307
+        },
+        "references/reference-cases.md": {
+          "sha256": "af4f1c57877c619b7d0a146e56b32e744bb23d16425d9ebe75f89c3401d5b55e",
+          "bytes": 1744
+        },
+        "references/self-check.md": {
+          "sha256": "4788115bc0528d5c7d1bd228f0d92504a75b6b6b65b732117be0ae529b9e6d35",
+          "bytes": 1220
+        },
+        "SKILL.md": {
+          "sha256": "2de062f68e7596c2d22ef72cf77eb6620fd1a32eed58313d888914a518a9d00a",
+          "bytes": 3099
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "knowledge-ladder-series-planner",
+      "version": "1.0.0",
+      "kind": "style-planner",
+      "video": "knowledge-ladder",
+      "pair": "knowledge-ladder-explainer",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Plan 知识溯源科普 series topics — the topic skill (选题 skill) for the knowledge-ladder line: one episode = one ladder from a high-school tool (slope, log, probability tree, vectors) up to an advanced concept (Taylor, Fourier, Bayes, entropy, cybernetics), ending with the viewer building a small working thing that solves the cold-open's real problem. Rates directions on the subject axis (pool line ≥50) with four gates (starts from a high-school tool / a real problem the old tool visibly fails on / one step per rung / a build reproducible in 10 minutes with measured numbers), seven fit questions and six forces; requires the triple 工具 · 卡点 · 成品; keeps the ledger (你手机里的数学 / AI 的家谱 / 算清楚再决定), the overlap split with paper-demo (line 09) and Shenhai, and writes task messages for knowledge-ladder-explainer. Use when the user asks 知识溯源科普 / 从高中知识讲起 做什么选题 / 方向 / 选题池 / 路线图 / 任务消息, or whether a topic fits. Not for writing narration or H3 prompts (that is knowledge-ladder-explainer).",
+      "path": "skills/knowledge-ladder-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/06/知识溯源科普_从斜率到泰勒",
+      "package": "packages/knowledge-ladder-series-planner-1.0.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "5324b5cd04370d61fd81877be63c61dd078b0d30d3c1df98fe2f655a44bc95bd",
+          "bytes": 5860
+        },
+        "references/fit-criteria.md": {
+          "sha256": "30105f6d8b64cea4f0f76034ab2a07223f120de2f70262c69fe07d30e667a82c",
+          "bytes": 14159
+        },
+        "references/output-templates.md": {
+          "sha256": "12214ec5fc7aaff10a4576cd1f2d38d65a178b41f0fa9ec175b613ae26ffe007",
+          "bytes": 5125
+        },
+        "SKILL.md": {
+          "sha256": "fe801cba66cacf825229464acb38bd362781bb4147e45c9b887c2e8dc567d489",
+          "bytes": 13026
+        }
+      },
+      "warnings": [
+        "description 977 字符，接近 1024 上限（建议 <900）"
+      ],
+      "status": "exported"
+    },
+    {
+      "name": "paper-demo-explainer",
+      "version": "1.1.0",
+      "kind": "style-explainer",
+      "video": "paper-demo",
+      "pair": "paper-demo-series-planner",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "经典论文科普（Paper-demo explainer）风格 skill：每期拿一篇经典论文（香农 1948、图灵 1950、感知机、反向传播、Attention、PageRank、Diffie-Hellman、Nash、DNA 双螺旋等），讲'论文里有什么'——一个反常结果 + 一个被逼出来的公式——再做出一个观众能亲手复现的可演示物（≤30 行代码、纸笔实验、小游戏，先运行再写稿），用参与式引导先让观众做再命名，结尾留三道题并把开头空格交还。黑底、每个量一种固定颜色、一个可拖动的旋钮。Use when the user wants 论文科普 / 经典论文科普 / 压缩即智能 / 看看论文有什么再做出有趣的东西 / 把一篇论文做成可演示的短视频. Not for the general participation devices (see participation-design) or knowledge-ladder episodes that climb from a high-school tool (see knowledge-ladder-explainer).",
+      "path": "skills/paper-demo-explainer",
+      "source": "G:/AI/视频分析/一些最近的想法/09/论文科普_压缩即智能",
+      "package": "packages/paper-demo-explainer-1.1.0.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "695bd38f2d5ef350c0af7f24d1478aed53f987640d7a29c6f2d1c30c4f15e19c",
+          "bytes": 2606
+        },
+        "SKILL.md": {
+          "sha256": "5c5abec85887e797ee7b97535aa110ee528503d1b1d16154b636b4ce0fb4c52e",
+          "bytes": 3951
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "paper-demo-series-planner",
+      "version": "0.1.0",
+      "kind": "style-planner",
+      "video": "paper-demo",
+      "pair": "paper-demo-explainer",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Plan 经典论文科普 style series topics — the topic skill (选题 skill): find directions, rate candidates, build topic pools and roadmaps, and hand each episode to the style skill paper-demo-explainer as a task message. Use when the user asks 经典论文科普风格做什么选题 / 方向 / 选题池 / 路线图, or asks whether a topic fits this style. Not for writing narration or H3 prompts (that is paper-demo-explainer).",
+      "path": "skills/paper-demo-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/09/论文科普_压缩即智能",
+      "package": "packages/paper-demo-series-planner-0.1.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "335fe4a0215720de269eeac5b38218839b9f123cc8c7b7e370175098617b3776",
+          "bytes": 187
+        },
+        "references/fit-criteria.md": {
+          "sha256": "75bd148f5e86de71479040297f27c58dec60ee5a1c0d58726279daee6e6f6466",
+          "bytes": 1315
+        },
+        "references/output-templates.md": {
+          "sha256": "d55821e62c3c0858297eb2226671a32178357c2c531b1bf73f63b6ec56adb448",
+          "bytes": 497
+        },
+        "SKILL.md": {
+          "sha256": "be5956120a657ee95fab4541693f4fd3d6fdd2fe8d33834405f66bfe6e5e2b6b",
+          "bytes": 3074
+        }
+      },
+      "warnings": [
+        "还有 12 处「待填」没填：SKILL.md×3、references/domain-kits.md×1、references/fit-criteria.md×6、references/output-templates.md×2"
+      ],
+      "status": "needs-completion"
+    },
+    {
+      "name": "shenhai-series-planner",
+      "version": "1.4.0",
+      "kind": "style-planner",
+      "video": "shenhai",
+      "pair": "shenhai-style-explainer",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Find, rate and schedule content directions and episode topics for the \"设计师深海\" (Designer Shenhai) explainer style — discovers candidate fields (学科轴) and narrative units (叙事单元轴), rates them with the Shenhai fit criteria, the Four Gates, the viral six-force model and pool depth, then builds 开工种子包 / 选题库 / 选题路线图 / 任务消息 that feed the shenhai-style-explainer generation skill. Use when the user asks 深海还能做什么方向, 帮深海找领域 or 找选题, 评星 or 五星方向, 出 20/50/300 期选题, 选题池 or 选题库, 开工种子包, 任务消息, 排期路线图, 撞题体检, 领域拓展. Not for writing narration or H3 prompts (that is shenhai-style-explainer), and not for other visual styles.",
+      "path": "skills/shenhai-series-planner",
+      "source": "G:/AI/视频分析/设计师深海_白底极简科普/设计师深海视频分析",
+      "package": "packages/shenhai-series-planner-1.4.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "29828b07a99348e20b96dfb4754032036dde3be007f46751721e5c89783c5d17",
+          "bytes": 55330
+        },
+        "references/domain-ledger.md": {
+          "sha256": "94d910023118922dce930a38fa12d2f19a0f3cdd84fd50be87c411506003d50b",
+          "bytes": 12699
+        },
+        "references/output-templates.md": {
+          "sha256": "edd7feec1dd4226a41c9aa5423a056f16cb95c1ee08f716fe1177af86f64f92e",
+          "bytes": 13298
+        },
+        "references/rating-rubric.md": {
+          "sha256": "7c23f44d81e0e572c039fcae792a4aba5f1f9da6995ad0c4039e1434362f7a82",
+          "bytes": 8898
+        },
+        "references/research-playbook.md": {
+          "sha256": "accff064db1ab4d0553bacb2f61ce890ad43438217539a02784bd4aab082b534",
+          "bytes": 6622
+        },
+        "references/topic-pool-method.md": {
+          "sha256": "3e4ec8aa7927a5cd7ba7fa908391dd3066f0cab19e0f7dd844fdaf95b49b271f",
+          "bytes": 8836
+        },
+        "SKILL.md": {
+          "sha256": "fafba1c57ea8830cc90a6fa1e478f61337623f866046f3b6972bdf615188fb94",
+          "bytes": 15857
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "shenhai-style-explainer",
+      "version": "1.6.0",
+      "kind": "style-explainer",
+      "video": "shenhai",
+      "pair": "shenhai-series-planner",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Generate \"设计师深海\" (Designer Shenhai) style knowledge-explainer videos with MiniMax H3 - zero-cut morphing explainers on one lit light-grey or near-black canvas whose world is sized to the field (signs, cutaway, silhouette stage or cut paper), one accent color, bilingual concept cards, and a calm male narrator in short paired sentences (narration recorded first by TTS, subtitles in post; H3 renders picture + event sounds, every event on an absolute timecode). Use when the user wants Shenhai-style explainers in any field, asks to turn a teaching topic into this continuous-morph format, asks 深海风格怎么写旁白 / 画面描述 / H3 提示词 / 画面档位, or asks why Shenhai's films work (深海为什么火). Not for live-action vlogs, talking-head videos or cinematic story films, and not for finding directions or topic pools (that is shenhai-series-planner).",
+      "path": "skills/shenhai-style-explainer",
+      "source": "G:/AI/视频分析/设计师深海_白底极简科普/设计师深海视频分析",
+      "package": "packages/shenhai-style-explainer-1.6.0.skill.zip",
+      "files": {
+        "references/beat-templates.md": {
+          "sha256": "a3aeaa0d03c38713313bfb535c17efbc23b94301c0412cb265969dd4429b5518",
+          "bytes": 22108
+        },
+        "references/example-aperture.md": {
+          "sha256": "4438f94be89ed11b0b78356d9308d980949deafca0a567e145e5c0d4134fdbac",
+          "bytes": 16762
+        },
+        "references/hit-mechanics.md": {
+          "sha256": "0bc12f5b6ebc6c49200085203a52f9860f310c478e90986513836d9313dbcc95",
+          "bytes": 10377
+        },
+        "references/style-dna.md": {
+          "sha256": "dd4abec1d253adbd092ea6d0e107a557676cfb677a706240ec96ee1ee60b2a64",
+          "bytes": 68364
+        },
+        "SKILL.md": {
+          "sha256": "c54386c80e77851d2c924d97b38e6e700e9e120a024e742b88511fdcfe634014",
+          "bytes": 45172
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "ted-series-planner",
+      "version": "1.0.0",
+      "kind": "style-planner",
+      "video": "ted",
+      "pair": "ted-style-explainer",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Plan TED演讲技术科普 style series topics — the topic skill (选题 skill) for the spotlight object-theatre line: one talk × one idea × one checkable fact. Finds and rates directions on the narrative-unit axis (one episode = one talk and one idea), applies the style's four gates (one sentence / in your hand / checkable / told in our own words) and the five fit questions, enforces the TED CC BY–NC–ND copyright red lines (no clips, no dubbing, no speaker likeness, no TED branding, speaker's own story ≤2 sentences), keeps the six-direction ledger and the overlap rules with 深海 / 何加盐, and writes task messages for the style skill ted-style-explainer. Use when the user asks TED风格做什么选题 / 方向 / 选题池 / 路线图 / 任务消息, or whether a talk fits this format. Not for writing narration or H3 prompts (that is ted-style-explainer).",
+      "path": "skills/ted-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/03/TED演讲_技术科普",
+      "package": "packages/ted-series-planner-1.0.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "8e5295d90e6d14c0043b8dfe475917eb8c75def4c8679ac9ced39e70d5646638",
+          "bytes": 3035
+        },
+        "references/fit-criteria.md": {
+          "sha256": "58bc2a03b764aec35dc2c3a58fdeffa14d5514f2ec2d7db9863259a1f9a56cb9",
+          "bytes": 5535
+        },
+        "references/output-templates.md": {
+          "sha256": "c0ca341651c43f0030428936c907fa11b2c9ad3d291a05ce1f5b41839bb4f167",
+          "bytes": 2743
+        },
+        "SKILL.md": {
+          "sha256": "44f27dcb69e430374135675bf246c439f557fbf33e2f40909ea41786f38c188c",
+          "bytes": 9066
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "ted-style-explainer",
+      "version": "1.0.1",
+      "kind": "style-explainer",
+      "video": "ted",
+      "pair": "ted-series-planner",
+      "category": "knowledge-explainers",
+      "category_label": "知识讲解",
+      "description": "Generate TED演讲·技术科普 style episodes with MiniMax H3 — the style skill (风格 skill): one talk, one idea, one checkable fact. Opens on a concrete first-person dilemma with the object in one warm spotlight; the object makes one small decision; a 'not A but B' flip at 45–65%; the idea named only after the demo; a three-step number ladder from the original research; one concession; the choice handed back ('the step you can take' + an honest either-or question); a static source card (speaker · event · year). Dark stage, faceless wooden figure as 'you', no speaker likeness, no TED logos, no applause or inspirational music. A-line (voice-first timecode). Use when the user wants TED风格 / 演讲观点科普 / 一个观点一个数字 / turning a talk into this format, or asks how this line writes narration, picture lines or H3 prompts. Topics: ted-series-planner.",
+      "path": "skills/ted-style-explainer",
+      "source": "G:/AI/视频分析/一些最近的想法/03/TED演讲_技术科普",
+      "package": "packages/ted-style-explainer-1.0.1.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "f393c4c6d68be25703b19d79567ab7d66781b0bf36efd04d6cc16782bdfa2742",
+          "bytes": 3819
+        },
+        "SKILL.md": {
+          "sha256": "98066b1e83c82fc8f968d2eb5c86411d99b337e5a2abf28ff786d9e16a686ede",
+          "bytes": 6090
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "vintage-woodblock-collage-video",
+      "version": "1.2.0",
+      "kind": "style-explainer",
+      "video": "vintage-woodblock",
+      "pair": null,
+      "category": "poetry-paper-art",
+      "category_label": "诗词与纸艺",
+      "description": "Writes vintage East-Asian woodblock-print paper-collage animation shorts for MiniMax H3: silhouette-and-beauty vignettes on aged tinted xuan paper, where scene changes are paper / ink material transitions (full-screen recompositions), never camera cuts; paper tint, materials and ritual color are derived per story. Maps a story or IP (two-character encounter or folk tale; optional title, duration, ratio) onto the locked seven beats (title → encounter → ink-splash → focal gesture + beauty close-up → interior dance → brush wipe → fan-close and silent seal) and writes one complete English H3 T2VA / I2VA multi-shot prompt with a near-silent paper-rustle bed and sparse guzheng / pipa plucks on a 50 BPM grid. Use for 复古木版画拼贴 / 纸艺拼贴动画 / 剪影爱情小品 / 唐伯虎点秋香风格 / 做旧宣纸动画. Not for the voice-first timecode pipeline, live action, 3D CG, dialogue-heavy or multi-minute stories, or topic planning.",
+      "path": "skills/vintage-woodblock-collage-video",
+      "source": "G:/AI/视频分析/唐伯虎点秋香_复古版画拼贴/视频分析",
+      "package": "packages/vintage-woodblock-collage-video-1.2.0.skill.zip",
+      "files": {
+        "references/example-prompt.md": {
+          "sha256": "e4af7a8040adfc77763cc07345ac42c4ce786a3cb65e3fee8729af84849116bf",
+          "bytes": 7899
+        },
+        "references/style-dna.md": {
+          "sha256": "d88b498e600ac34335cb9b339ef0cd2e16944372d19535509a92a0bd7ebf4fb9",
+          "bytes": 15740
+        },
+        "SKILL.md": {
+          "sha256": "4903ecdb71cd790ba4036c1fa0855c5de03eecfa13dab0155e1ac33cb5976cf6",
+          "bytes": 18001
+        }
+      },
+      "warnings": [
+        "还没有配对的 series-planner（metadata.pair 缺省）——学完选题方法后 h3_skill scaffold video=vintage-woodblock explainer_name=vintage-woodblock-collage-video title=<中文名> 只补 planner 那半"
+      ],
+      "status": "exported"
+    },
+    {
+      "name": "xuezhong-series-planner",
+      "version": "1.0.0",
+      "kind": "style-planner",
+      "video": "xuezhong",
+      "pair": "xuezhong-style-writing",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Plan 雪中笔法古风短篇 series topics — the topic skill (选题 skill) for the line that writes one original ancient-setting short story per episode in the 雪中悍刀行 brush (laugh first, then someone leaves) and compresses it into an A-line H3 video. Finds and rates directions on the narrative-unit axis with the style's gates (someone leaves / a cheap old object carries the ending / a real laugh first / a last line of ≤10 characters that is the title), six fit questions and pool depth; requires the triple 人·走·物; keeps the ledger (再走一趟 边关 / 最后一招 江湖 / 市井说书), the copyright red lines (no characters, places, sentences or 雪中 / 北凉 lures from the novel), the split with line 01, and writes task messages for xuezhong-style-writing. Use when the user asks 雪中风格 / 网文写法古风短篇 做什么选题 / 方向 / 选题池 / 路线图 / 任务消息, or whether a story idea fits. Not for writing the story or H3 prompts (that is xuezhong-style-writing).",
+      "path": "skills/xuezhong-series-planner",
+      "source": "G:/AI/视频分析/一些最近的想法/02/网文写法_雪中悍刀行",
+      "package": "packages/xuezhong-series-planner-1.0.0.skill.zip",
+      "files": {
+        "references/domain-kits.md": {
+          "sha256": "6c9a39abc758bdfde5be94f9be909dba0ded4dcddb38748daa4ed611ae3f68a5",
+          "bytes": 4714
+        },
+        "references/fit-criteria.md": {
+          "sha256": "eda47069e5e4dd32cc6163884128d3d17bf82b64ffbe90f270e5dfc0f3572517",
+          "bytes": 6359
+        },
+        "references/output-templates.md": {
+          "sha256": "fe8325fccce93375a7a25aed3352f7b7e548ec7c551e4927cb8fc6de76964a7b",
+          "bytes": 3732
+        },
+        "SKILL.md": {
+          "sha256": "62abca73248cf41f57958b7a6c06aed49fb0164d8d8b463b5a7b41cb4062da4c",
+          "bytes": 9409
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    },
+    {
+      "name": "xuezhong-style-writing",
+      "version": "1.0.1",
+      "kind": "style-explainer",
+      "video": "xuezhong",
+      "pair": "xuezhong-series-planner",
+      "category": "story-narrative",
+      "category_label": "故事叙事",
+      "description": "Write original ancient-setting short stories in the 雪中悍刀行 web-novel brush (雪中写法) — the style skill (风格 skill) for this line: open on a long worldly / weather / place sentence with the callback object shown once, two people trade dialogue with one real laugh, a bystander's silence at 65–75%, then the climax as one line or gesture of someone LEAVING (not winning), one line of everyday life, 3–5 closing sentences of ≤10 characters, and the last line is the title. Storyteller voice: declarative, laughing, an occasional '其实', emotions as actions, no questions, no emotion adjectives. Writes the full short story (800–1500 字 图文版) first, then compresses it into a 250–650 字 A-line narration with H3 pictures. Use for 雪中风格 / 网文写法 / 说书人口吻古风短篇 / 先笑后走的故事, or the story layer of 古风歌曲一歌一故事. Topics: xuezhong-series-planner. Never uses the novel's characters, places or sentences.",
+      "path": "skills/xuezhong-style-writing",
+      "source": "G:/AI/视频分析/一些最近的想法/02/网文写法_雪中悍刀行",
+      "package": "packages/xuezhong-style-writing-1.0.1.skill.zip",
+      "files": {
+        "references/style-dna.md": {
+          "sha256": "d4155d9e256b639bfabdb3c74208b4123186234d73bc209fed7f50ea1af55e9b",
+          "bytes": 3408
+        },
+        "SKILL.md": {
+          "sha256": "e1adca9aa15ddbc82127585edc123ac04139f4a359be791753480c323bc0478b",
+          "bytes": 7631
+        }
+      },
+      "warnings": [],
+      "status": "exported"
+    }
+  ]
+}
